@@ -1,0 +1,7 @@
+Lexema	Tipo	Línea	Columna
+f	Error	1	2
+a	Error	1	5
+3	Entero	1	9
+fasdf	Error	1	17
+a	Error	1	21
+f3wa	Error	1	28

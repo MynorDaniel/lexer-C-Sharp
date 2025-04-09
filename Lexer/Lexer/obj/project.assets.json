@@ -1537,11 +1537,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/mynordma/Lexer/Lexer/Lexer.csproj",
+      "projectUniqueName": "/home/mynordma/lexer-C-Sharp/Lexer/Lexer/Lexer.csproj",
       "projectName": "Lexer",
-      "projectPath": "/home/mynordma/Lexer/Lexer/Lexer.csproj",
+      "projectPath": "/home/mynordma/lexer-C-Sharp/Lexer/Lexer/Lexer.csproj",
       "packagesPath": "/home/mynordma/.nuget/packages/",
-      "outputPath": "/home/mynordma/Lexer/Lexer/obj/",
+      "outputPath": "/home/mynordma/lexer-C-Sharp/Lexer/Lexer/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/mynordma/.nuget/NuGet/NuGet.Config"

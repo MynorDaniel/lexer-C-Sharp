@@ -191,11 +191,9 @@ namespace Lexer.Views
                     }
                 }
 
-                MessageBox.Show("Reporte generado en reporte.txt");
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Error al guardar el archivo: {ex.Message}");
             }
         }
 
