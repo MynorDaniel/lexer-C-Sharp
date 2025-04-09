@@ -176,6 +176,27 @@ namespace Lexer.Views
         private void Reporte_Click(object sender, RoutedEventArgs e)
         {
 
+            string filePath = Path.Combine(Directory.GetCurrentDirectory(), "reporte.txt");
+
+            try
+            {
+                using (StreamWriter writer = new StreamWriter(filePath))
+                {
+                    writer.WriteLine("Lexema\tTipo\tLínea\tColumna"); 
+
+                    foreach (var token in tokens)
+                    {
+                        string linea = $"{token.Lexema}\t{token.Tipo.ToString()}\t{token.Linea}\t{token.Columna}";
+                        writer.WriteLine(linea);
+                    }
+                }
+
+                MessageBox.Show("Reporte generado en reporte.txt");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error al guardar el archivo: {ex.Message}");
+            }
         }
 
     }
