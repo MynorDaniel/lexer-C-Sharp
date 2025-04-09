@@ -182,11 +182,11 @@ namespace Lexer.Views
             {
                 using (StreamWriter writer = new StreamWriter(filePath))
                 {
-                    writer.WriteLine("Lexema\tTipo\tLínea\tColumna"); 
+                    writer.WriteLine("Lexema\t\t\tTipo\t\t\tLínea\t\t\tColumna"); 
 
                     foreach (var token in tokens)
                     {
-                        string linea = $"{token.Lexema}\t{token.Tipo.ToString()}\t{token.Linea}\t{token.Columna}";
+                        string linea = $"{token.Lexema}\t\t\t\t{token.Tipo.ToString()}\t\t\t\t{token.Linea}\t\t\t\t{token.Columna}";
                         writer.WriteLine(linea);
                     }
                 }

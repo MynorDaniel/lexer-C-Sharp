@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zA/Tqw4LW3tHI5pCLfl7b8+oVEE2bcamw7iOspMvWoxMCWkPvwyHcr56Vezpkq1e3ombgl1MM1VuRky5CHF3fQ==",
+  "dgSpecHash": "a/OxyUTVfcjklilddeoI5MGR/6RfB3w1xYbF+UiyZDoKI5NAcY7SBGJLNG+jtXsajJdYIWZUbI/6Po4SqftzwQ==",
   "success": true,
   "projectFilePath": "/home/mynordma/lexer-C-Sharp/Lexer/Lexer/Lexer.csproj",
   "expectedPackageFiles": [
@@ -35,7 +35,10 @@
     "/home/mynordma/.nuget/packages/skiasharp.nativeassets.webassembly/2.88.8/skiasharp.nativeassets.webassembly.2.88.8.nupkg.sha512",
     "/home/mynordma/.nuget/packages/skiasharp.nativeassets.win32/2.88.8/skiasharp.nativeassets.win32.2.88.8.nupkg.sha512",
     "/home/mynordma/.nuget/packages/system.io.pipelines/8.0.0/system.io.pipelines.8.0.0.nupkg.sha512",
-    "/home/mynordma/.nuget/packages/tmds.dbus.protocol/0.20.0/tmds.dbus.protocol.0.20.0.nupkg.sha512"
+    "/home/mynordma/.nuget/packages/tmds.dbus.protocol/0.20.0/tmds.dbus.protocol.0.20.0.nupkg.sha512",
+    "/home/mynordma/.nuget/packages/microsoft.netcore.app.runtime.linux-x64/8.0.14/microsoft.netcore.app.runtime.linux-x64.8.0.14.nupkg.sha512",
+    "/home/mynordma/.nuget/packages/microsoft.aspnetcore.app.runtime.linux-x64/8.0.14/microsoft.aspnetcore.app.runtime.linux-x64.8.0.14.nupkg.sha512",
+    "/home/mynordma/.nuget/packages/microsoft.netcore.app.host.linux-x64/8.0.14/microsoft.netcore.app.host.linux-x64.8.0.14.nupkg.sha512"
   ],
   "logs": []
 }
